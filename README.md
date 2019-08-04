@@ -18,6 +18,8 @@ npm install
 npm test
 ```
 
+Note: you will need to install Chrome to have these run locally.
+
 ## Reporters
 
 This projects uses both the [spec-reporter](https://webdriver.io/docs/spec-reporter.html) and [allure-reporter](https://webdriver.io/docs/allure-reporter.html). The spec reporter offers great feedback when running from terminal and the allure reporter provides you with a nice report and screenshots that are automatically attached to failed tests. After running your the tests, run `npm run report` to generate the allure report. It's nifty.

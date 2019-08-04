@@ -5,7 +5,7 @@ import Login from 'page-objects/login.page';
 const loginPage = new Login();
 
 Given("I\'m on ask.com homepage", () => {
-    loginPage.get();
+    loginPage.open();
 });
 
 When('I input a term and I click Go', () => {

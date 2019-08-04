@@ -8,13 +8,10 @@ const cucumber_1 = require("cucumber");
 const login_page_1 = __importDefault(require("page-objects/login.page"));
 const loginPage = new login_page_1.default();
 cucumber_1.Given("I\'m on ask.com homepage", () => {
-    loginPage.get();
-    // browser.url('https://www.ask.com/');
+    loginPage.open();
 });
 cucumber_1.When('I input a term and I click Go', () => {
     loginPage.search('cucumber js');
-    // $('#search-box').setValue('cucumber js');
-    // $('.sb-button').click();
 });
 cucumber_1.Then('I should see search results', () => {
     chai_1.expect(loginPage.searchResults().length).to.be.greaterThan(1);

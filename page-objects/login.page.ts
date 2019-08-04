@@ -6,7 +6,7 @@ export default class Login {
         this.searchTextBox.setValue(searchText);
         this.searchBtn.click();
     }
-    get() {
+    open() {
         browser.url('https://www.ask.com/');
     }
 

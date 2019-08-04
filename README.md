@@ -1,6 +1,6 @@
 # Webdriverio v5, Typescript, Cucumber, Web
 
-Inspired by [WarleyGabrie](https://github.com/WarleyGabriel) for his template https://github.com/WarleyGabriel/demo-webdriverio-cucumber, creating a boilerplate project for webdriverio using typescript and cucumber.
+Inspired by [WarleyGabrie](https://github.com/WarleyGabriel) for his template https://github.com/WarleyGabriel/demo-webdriverio-cucumber, I wanted to create a boilerplate project for webdriverio using typescript and cucumber. Mainly for the intellisense :).
 
 Boilerplate project uses the following:
 
@@ -8,6 +8,8 @@ Boilerplate project uses the following:
 - webdriverio and sync settings
 - cucumber
 - chai.js assertions
+
+Includes page object pattern for ease of framework maintainence.
 
 ## Getting Started
 
